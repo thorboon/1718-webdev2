@@ -1,0 +1,50 @@
+@import '../../../sass/abstracts/_variables.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.contact {
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+
+    & > .contact__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        & > .btn {
+            margin-top: 2rem;
+        }
+    }
+}
+
+input, textarea {
+    width: 100%;
+    text-indent: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.75rem 0;
+
+    background: $white;
+    border: none;
+    border-radius: $radius-standard;
+    
+    font-size: 1em;
+    font-family: $text-font;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+
+    background: none;
+    border: 1px solid $primary;
+    
+    font-size: 1em;
+    outline: none;
+}

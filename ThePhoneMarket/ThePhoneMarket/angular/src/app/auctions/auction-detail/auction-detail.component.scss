@@ -1,0 +1,45 @@
+@import '../../../sass/abstracts/_variables.scss';
+
+.auction-top {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+
+    &  > .auction__image {
+        margin-right: 1rem;
+        flex: 1 75%;
+    }
+
+    & > .auction__side-content {
+        flex: 1 calc(25% - 1rem);
+    }
+
+    & .auction__price {
+        margin: 1rem 0;
+    }
+
+    & .auction__quick-bid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & .auction__bid, & .auction__auto-bid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.auction-bottom {
+    background: $white;
+    padding: 2rem 0;
+}
+
+img {
+    width: 100%;
+    border-radius: $radius-standard;
+}
+
+button:nth-child(2) {
+    margin: 0 1rem;
+}

@@ -1,0 +1,50 @@
+@import '../../../sass/abstracts/variables.scss';
+
+app-auction-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+app-category-card {
+    margin: 0.5rem;
+    flex: 1 1 calc(50% - 1rem);
+}
+
+h1 {
+    margin: 3rem 0 1rem 0;
+}
+
+.info {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    background: $white;
+    padding: 100px 0;
+}
+
+.info__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info__text {
+    max-width: 400px;
+}
+
+img {
+    width: 265px;
+}
+
+.auctions-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 3rem 0 1rem 0;
+    
+    & > h1 {
+        margin: 0;
+    }
+}

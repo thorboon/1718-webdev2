@@ -1,0 +1,16 @@
+<header>
+  <div class="left">
+    <h2><a routerLink="/"><img src="../../assets/images/logo_transpara.png" alt="logo"></a></h2>
+    <app-search></app-search>
+  </div>
+  <ul>
+    <li class="dropdown">
+      <a routerLink="/veilingen">Veilingen</a>
+      <div class="dropdown__content">
+        <a routerLink="/{{ category.title }}" *ngFor="let category of categories.data">{{ category.title }}</a>
+      </div>
+    </li>
+    <li><a routerLink="/register">Registreren</a></li>
+    <li class="btn-login"><a routerLink="/login">Inloggen</a></li>
+  </ul>
+</header>

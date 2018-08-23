@@ -1,0 +1,22 @@
+table {
+  border: none;
+}
+
+.table td, .table th {
+  border-top: 1px solid #F5F5F5;
+}
+
+thead {
+  background: #f3f3f3;
+  border: none;
+}
+
+.table thead th {
+  border: none;
+}
+
+/*
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #faf9ff;
+}
+*/

@@ -1,0 +1,67 @@
+@import '../../../../sass/abstracts/_variables.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login {
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+
+    & > .login__form {
+        display: flex;
+        flex-direction: column;
+
+        & > .btn {
+            margin-top: 2rem;
+        }
+    }
+
+    & > .login__options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & > .login__options-checkbox {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    & > .login__social {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2.5rem;
+        border-top: 1px solid #DFECEC;
+    }
+}
+
+input {
+    width: 100%;
+    text-indent: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.75rem 0;
+
+    background: $white;
+    border: none;
+    border-radius: $radius-standard;
+    
+    font-size: 1em;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+
+    background: none;
+    border: 1px solid $primary;
+    
+    font-size: 1em;
+    outline: none;
+}

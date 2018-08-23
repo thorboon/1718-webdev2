@@ -1,0 +1,32 @@
+<app-header></app-header>
+
+<div class="container">
+  <h1>Veilingen</h1>
+  <div class="top">
+    <div class="filter-options">
+      <div class="filter">
+        <select name="kenmerken">
+          <option value="nieuw">Nieuw</option>
+          <option value="oud">Oud</option>
+          <option value="vervallen">Vervallen</option>
+          <option value="kapot">Kapot</option>
+        </select>
+      </div>
+      <div class="filter">
+        <select name="sorteer">
+          <option value="nieuw">Prijs</option>
+          <option value="oud">Staat</option>
+        </select>
+      </div>
+    </div>
+    <div class="sell-btn">
+      <a class="btn">Verkoop je smartphone</a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <app-auction-list></app-auction-list>
+  </div>
+</div>
+
+<app-footer></app-footer>

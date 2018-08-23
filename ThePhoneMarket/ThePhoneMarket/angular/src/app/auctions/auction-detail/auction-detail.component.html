@@ -1,0 +1,44 @@
+<app-header></app-header>
+<div class="container" *ngIf="auction">
+  <div class="auction-top">
+    <div class="auction__image">
+      <figure>
+        <img src="assets/images/i6.png" placeholder="placeholder">
+      </figure>
+    </div>
+    <div class="auction__side-content">
+      <h4>{{ auction.data.user.firstname + ' ' + auction.data.user.lastname }}</h4>
+      <h1>{{ auction.data.title }}</h1>
+      <p>{{ auction.data.timer |  date:'h:mm:ss'}}</p>    
+      <div class="auction__price">
+        <h4>Huidig bod:</h4>
+        <p>{{ auction.data.price | currency:'EUR' }}</p>
+      </div>
+      <p>Snel bieden</p>
+      <div class="auction__quick-bid">
+        <button class="btn btn-secondary">{{ auction.data.price + 3 | currency:'EUR' }}</button>
+        <button class="btn btn-secondary">{{ auction.data.price + 7 | currency:'EUR' }}</button>
+        <button class="btn btn-secondary">{{ auction.data.price + 12 | currency:'EUR' }}</button>
+      </div>
+      <p>Bied direct</p>
+      <div class="auction__bid">
+        <input type="text" placeholder="€">
+        <button class="btn">Bieden</button>
+      </div>
+      <p>Plaats autobod</p>
+      <div class="auction__auto-bid">
+        <input type="text" placeholder="€">
+        <button class="btn btn-secondary">Bieden</button>
+      </div>
+    </div> 
+  </div>
+</div>
+<div class="auction-bottom">
+  <div class="container">
+    <div class="auction__content">
+      <h1>Beschrijving</h1>
+      <p>{{ auction.data.description }}</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

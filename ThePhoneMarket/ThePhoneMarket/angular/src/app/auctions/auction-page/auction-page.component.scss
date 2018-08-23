@@ -1,0 +1,36 @@
+@import 'src/sass/abstracts/variables';
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    & > .filter-options {
+        display: flex;
+        flex-basis: calc(50% - 0.5rem);
+
+        & > .filter {
+            flex: 1 calc(50% - 1rem);
+
+            &:first-child {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    & > .sell-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+app-auction-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 1.5rem 0;
+}

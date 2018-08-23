@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="container">
+  <div class="register">
+    <h1>Registreren</h1>
+    <p>Heb je al een account? <span>Inloggen</span></p>
+    <form class="register__form">
+      <input type="e-mail" name="email" placeholder="E-mail">
+      <input type="password" name="password" placeholder="Wachtwoord">
+      <input type="password" name="password_confirm" placeholder="Wachtwoord bevestigen">
+
+      <div class="radio-buttons">
+        <div class="radio-gender">
+          <input type="radio" id="gender1" name="gender" value="male">
+          <label for="gender1">Man</label>
+        </div>
+        <div class="radio-gender">
+          <input type="radio" id="gender2" name="gender" value="female">
+          <label for="gender2">Vrouw</label>
+        </div>
+      </div>
+      
+      <input type="text" name="first_name" placeholder="Voornaam">
+      <input type="text" name="last_name" placeholder="Achternaam">
+
+      <input type="text" name="phone_number" placeholder="Telefoon (Optioneel)">
+      <input type="text" name="postal_code" placeholder="Postcode">
+      
+      <button type="submit" class="btn">Registreren</button>
+    </form>
+    <div class="register__options">
+      <div class="register__options-checkbox">
+        <input type="checkbox" name="remember"> Onthouden
+      </div>
+    </div>
+    <div class="register__social">
+      <div class="row">
+          <a class="btn btn-social">Facebook</a>
+          <a class="btn btn-social">Google</a>
+      </div>
+    </div>
+    <div class="register__services">
+      <p>
+          Door een account aan te maken, ga je akkoord met onze
+          servicevoorwaarden en ons privacybeleid
+      </p>
+    </div>
+  </div>
+</div>

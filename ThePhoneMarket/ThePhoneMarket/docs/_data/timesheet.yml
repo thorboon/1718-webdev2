@@ -1,0 +1,69 @@
+# ╔═════════╗
+# ║ Student ║
+# ╚═════════╝
+-
+  time: 0.30
+  task: Briefing.
+-
+  time: 0.30
+  task: Planning.
+-
+  time: 2.0
+  task: Analyse.
+-
+  time: 1.30
+  task: Algemeen Concept.
+-
+  time: 3.0
+  task: Requirements.
+-
+  time: 1.30
+  task: Scenarios.
+-
+  time: 1.0
+  task: Datamodel.
+-
+  time: 1.0
+  task: Sitemap.
+-
+  time: 6.0
+  task: Wireframes.
+-
+  time: 1.0
+  task: Wireflow.
+-
+  time: 3.0
+  task: Style Tiles.
+-
+  time: 6.0
+  task: Visual Design Backoffice.
+-
+  time: 9.0
+  task: Visual Design Frontoffice.
+-
+  time: 2.30
+  task: UI Style Guide.
+-
+  time: 2.0
+  task: Academische poster.
+-
+  time: 2.0
+  task: Presentatie.
+-
+  time: 130.00
+  task: Backoffice.
+-
+  time: 15.00
+  task: API.
+-
+  time: 30.00
+  task: Frontoffice.
+-
+  time: 0.25
+  task: Github Repository.
+-
+  time: 0.30
+  task: Handleiding.
+-
+  time: 1.0
+  task: Deployment Guide.

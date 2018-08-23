@@ -1,0 +1,43 @@
+@import 'src/sass/abstracts/variables';
+
+footer {
+    width: 100%;
+    padding: 4rem 0 1.5rem 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+
+    & > ul {
+        list-style: none;
+        margin: 0 5rem;
+
+        & > li:first-child {
+            color: $primary;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.footer__title {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: right;
+}
+
+.footer-wrapper {
+    background: $white;
+}
+
+a {
+    color: inherit;
+}
